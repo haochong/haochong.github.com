@@ -1,0 +1,163 @@
+
+<!DOCTYPE HTML>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>ipad mobile? 是手机? 不... - HalGuo</title>
+    <meta name="author" content="Haochong.Guo">
+
+    
+    <meta name="description" content="Ipad Mobile? 是手机? 不... 使用UA string 判断 浏览器 是jquery的御用方法 uaMatch: function( ua ) { var ret = { browser: &quot;&quot; }; ua = ua.toLowerCase(); if ( / &hellip;">
+    
+    <meta name="viewport" content="width=device-width; initial-scale=1; maximum-scale=1">
+
+    <link href="/atom.xml" rel="alternate" title="HalGuo" type="application/atom+xml">
+    <link rel="canonical" href="">
+    <link href="/favicon.png" rel="shortcut icon">
+    <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css">
+    <!--[if lt IE 9]><script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script><![endif]-->
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
+    
+    
+
+</head>
+
+<body>
+	<header class="inner"><h1 class="left"><a href="/">HalGuo</a></h1>
+<nav class="menu left"><ul class="main">
+	<li><a href="/">Blog</a></li>
+	<li><a href="/blog/archives">Archives</a></li>
+</ul>
+</nav>
+<div class="right">
+	<form class="search right" action="http://google.com/search" method="get">
+		<input class="left" type="text" name="q" results="0">
+		<input type="hidden" name="q" value="site:halguo.github.com">
+	</form>
+	<div class="social right">
+		
+		
+		
+		
+		
+		
+		<a class="rss" href="/atom.xml" title="RSS">RSS</a>
+		
+	</div>
+</div>
+
+</header>
+	
+	<div id="content" class="inner"><article class="post">
+    <h1 class="title">Ipad Mobile? 是手机? 不...</h1>
+    <div class="entry"><p>使用UA string 判断 浏览器 是jquery的御用方法</p>
+
+<!-- end_preview -->
+
+
+
+
+<div>
+  <pre>
+    <code class='javascript'>uaMatch: function( ua ) {
+  var ret = { browser: &quot;&quot; };
+
+  ua = ua.toLowerCase();
+
+  if ( /webkit/.test( ua ) ) {
+    ret = { browser: &quot;webkit&quot;, version: /webkit[\/ ]([\w.]+)/ };
+
+  } else if ( /opera/.test( ua ) ) {
+    ret = { browser: &quot;opera&quot;, version:  /version/.test( ua ) ? /version[\/ ]([\w.]+)/ : /opera[\/ ]([\w.]+)/ };
+
+  } else if ( /msie/.test( ua ) ) {
+    ret = { browser: &quot;msie&quot;, version: /msie ([\w.]+)/ };
+
+  } else if ( /mozilla/.test( ua ) &amp;amp;&amp;amp; !/compatible/.test( ua ) ) {
+    ret = { browser: &quot;mozilla&quot;, version: /rv:([\w.]+)/ };
+  }
+
+  ret.version = (ret.version &amp;amp;&amp;amp; ret.version.exec( ua ) || [0, &quot;0&quot;])[1];
+
+  return ret;
+}</code>
+  </pre>
+</div>
+
+
+<p>这方法很方便，也很脆弱，不信的话，可以看看我们亲爱的ipad&#8230;</p>
+
+<p>随着ipad的出现，浏览网页的方式似乎出现了新的路，介于手机与电脑之间的，给人一种“特仑苏”的感觉，尤其是当你看到了ipad的UA string 时</p>
+
+<p><code>
+Mozilla/5.0 (iPad; U; CPU OS 3_2 like Mac OS X; en-us) AppleWebKit/531.21.10 (KHTML, like Gecko) Version/4.0.4 Mobile/7B334b Safari/531.21.10
+</code></p>
+
+<p>请注意后面的Mobile字样！！！</p>
+
+<blockquote>是手机吗？不&#8230;
+是ipad，不是所有移动设备都叫ipad</blockquote>
+
+
+<p>诚然，一句</p>
+
+<div>
+  <pre>
+    <code class='javascript'>navigator.userAgent.match(/iPad/i) != null;</code>
+  </pre>
+</div>
+
+
+<p>可以解决问题</p>
+
+<p>但是，那些判断UA string 为mobile的网站呢？
+不妨想象一下，那些使用着“大屏幕”的ipad用户访问 www.某网站.com ，却被直接转到针对手机设计的 m.某网站.com 时的心情&#8230;</p>
+
+<p>没有标准的useragent ， 在如今的web海域中，还要漂泊多久？</p>
+</div>
+    <div class="meta">
+        <div class="date">
+
+
+
+
+
+
+
+
+  
+
+
+<time datetime="2010-04-08T00:00:00+08:00" pubdate data-updated="true">Apr 8<span>th</span>, 2010</time></div>
+        <div class="tags">
+
+</div>
+        
+    </div>
+</article>
+<div class="share">
+	<div class="addthis_toolbox addthis_default_style ">
+	
+	
+	<a class="addthis_button_tweet"></a>
+	
+	
+	<a class="addthis_counter addthis_pill_style"></a>
+	</div>
+  <script type="text/javascript" src="http://s7.addthis.com/js/250/addthis_widget.js#pubid="></script>
+</div>
+
+</div>
+	<footer class="inner">Copyright &copy; 2012
+
+    Haochong.Guo
+
+</footer>
+	<script src="/javascripts/jquery.fancybox.pack.js"></script>
+<script src="/javascripts/slash.js"></script>
+
+
+
+
+</body>
+</html>

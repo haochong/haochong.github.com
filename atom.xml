@@ -1,0 +1,213 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+  <title><![CDATA[HalGuo]]></title>
+  <link href="http://halguo.github.com/atom.xml" rel="self"/>
+  <link href="http://halguo.github.com/"/>
+  <updated>2012-05-08T10:32:03+08:00</updated>
+  <id>http://halguo.github.com/</id>
+  <author>
+    <name><![CDATA[Haochong.Guo]]></name>
+    
+  </author>
+  <generator uri="http://octopress.org/">Octopress</generator>
+
+  
+  <entry>
+    <title type="html"><![CDATA[chunks performance]]></title>
+    <link href="http://halguo.github.com/blog/2011/10/10/chunks-performance/"/>
+    <updated>2011-10-10T00:00:00+08:00</updated>
+    <id>http://halguo.github.com/blog/2011/10/10/chunks-performance</id>
+    <content type="html"><![CDATA[
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Getting Real - 始于简单]]></title>
+    <link href="http://halguo.github.com/blog/2011/01/13/getting-real-build-less/"/>
+    <updated>2011-01-13T00:00:00+08:00</updated>
+    <id>http://halguo.github.com/blog/2011/01/13/getting-real-build-less</id>
+    <content type="html"><![CDATA[<p><img src="http://halguo.github.com/images/getting_real_build_less.jpg" title="始于简单" alt="始于简单" /></p>
+
+<ul>
+<li>Less features</li>
+<li>Less options/preferences</li>
+<li>Less people and corporate structure</li>
+<li>Less meetings and abstractions</li>
+<li>Less promises</li>
+</ul>
+
+
+<!-- end_preview -->
+
+
+<p><em>less</em>的概念贯穿了全书，只有当你<em>less</em>的时候，你才知道什么是<em>essential</em>;只有当你一无所有的时候，你才意识到最重要的东西（阳光，空气，水），不是么？</p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Rumpetroll – 小蝌蚪快点游]]></title>
+    <link href="http://halguo.github.com/blog/2010/10/05/introduce-rumpetroll/"/>
+    <updated>2010-10-05T00:00:00+08:00</updated>
+    <id>http://halguo.github.com/blog/2010/10/05/introduce-rumpetroll</id>
+    <content type="html"><![CDATA[<p>这是一个名叫 Rumpetroll 的聊天室。在挪威语里，意思是“蝌蚪”。。。</p>
+
+<p>用鼠标控制四处游动，用键盘输入聊天，输入“name:你的名字” 可以给自己的小蝌蚪起名字。</p>
+
+<!-- end_preview -->
+
+
+<p>因为使用了WebSockets 技术， 所以只能用 Firefox 4 或者 chrome , safari 5 以上版本来访问。一个结合了Canvas的不错的尝试，让人看到了Web开发的未来，小蝌蚪，快点游！</p>
+
+<p><img src="http://static.paulboxley.com/rumpetroll.png" alt="Rumpetroll" /></p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[ipad mobile? 是手机? 不...]]></title>
+    <link href="http://halguo.github.com/blog/2010/04/08/is-ipad-mobile/"/>
+    <updated>2010-04-08T00:00:00+08:00</updated>
+    <id>http://halguo.github.com/blog/2010/04/08/is-ipad-mobile</id>
+    <content type="html"><![CDATA[<p>使用UA string 判断 浏览器 是jquery的御用方法</p>
+
+<!-- end_preview -->
+
+
+
+
+<div>
+  <pre>
+    <code class='javascript'>uaMatch: function( ua ) {
+  var ret = { browser: &quot;&quot; };
+
+  ua = ua.toLowerCase();
+
+  if ( /webkit/.test( ua ) ) {
+    ret = { browser: &quot;webkit&quot;, version: /webkit[\/ ]([\w.]+)/ };
+
+  } else if ( /opera/.test( ua ) ) {
+    ret = { browser: &quot;opera&quot;, version:  /version/.test( ua ) ? /version[\/ ]([\w.]+)/ : /opera[\/ ]([\w.]+)/ };
+
+  } else if ( /msie/.test( ua ) ) {
+    ret = { browser: &quot;msie&quot;, version: /msie ([\w.]+)/ };
+
+  } else if ( /mozilla/.test( ua ) &amp;amp;&amp;amp; !/compatible/.test( ua ) ) {
+    ret = { browser: &quot;mozilla&quot;, version: /rv:([\w.]+)/ };
+  }
+
+  ret.version = (ret.version &amp;amp;&amp;amp; ret.version.exec( ua ) || [0, &quot;0&quot;])[1];
+
+  return ret;
+}</code>
+  </pre>
+</div>
+
+
+<p>这方法很方便，也很脆弱，不信的话，可以看看我们亲爱的ipad&#8230;</p>
+
+<p>随着ipad的出现，浏览网页的方式似乎出现了新的路，介于手机与电脑之间的，给人一种“特仑苏”的感觉，尤其是当你看到了ipad的UA string 时</p>
+
+<p><code>
+Mozilla/5.0 (iPad; U; CPU OS 3_2 like Mac OS X; en-us) AppleWebKit/531.21.10 (KHTML, like Gecko) Version/4.0.4 Mobile/7B334b Safari/531.21.10
+</code></p>
+
+<p>请注意后面的Mobile字样！！！</p>
+
+<blockquote>是手机吗？不&#8230;
+是ipad，不是所有移动设备都叫ipad</blockquote>
+
+
+<p>诚然，一句</p>
+
+<div>
+  <pre>
+    <code class='javascript'>navigator.userAgent.match(/iPad/i) != null;</code>
+  </pre>
+</div>
+
+
+<p>可以解决问题</p>
+
+<p>但是，那些判断UA string 为mobile的网站呢？
+不妨想象一下，那些使用着“大屏幕”的ipad用户访问 www.某网站.com ，却被直接转到针对手机设计的 m.某网站.com 时的心情&#8230;</p>
+
+<p>没有标准的useragent ， 在如今的web海域中，还要漂泊多久？</p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Modern Chinese Girl]]></title>
+    <link href="http://halguo.github.com/blog/2009/05/12/modern-chinese-girl/"/>
+    <updated>2009-05-12T00:00:00+08:00</updated>
+    <id>http://halguo.github.com/blog/2009/05/12/modern-chinese-girl</id>
+    <content type="html"><![CDATA[<p>In Chinese traditional culture, girls should be shy and passive.</p>
+
+<p>But my experience has told me, it&#8217;s not true.</p>
+
+<p>In ancient China, there was a talented girl - &#8220;Zhuo Wen Jun&#8221; who lead her MR.Right to elope just like a warrior!</p>
+
+<p>I guess there&#8217;s lot of Zhuo Wen Jun &#8216;s descendants in China nowadays.</p>
+
+<!-- end_preview -->
+
+
+<p>Facts have proven that I am right because there&#8217;s a girl that asked me out a few days ago.</p>
+
+<p>I didn&#8217;t feel any chemistry with her. Well, this is not the point -_-</p>
+
+<p>The point is she is a real warrior!</p>
+
+<p>The modern Chinese girl is not only gentle, but also brave and strong.</p>
+
+<p>If I fall in love with someone someday, maybe she is Zhuo Wen Jun &#8216;s descendant too :)</p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Building a filesystem based wiki]]></title>
+    <link href="http://halguo.github.com/blog/2009/01/05/filesystem-based-wiki/"/>
+    <updated>2009-01-05T00:00:00+08:00</updated>
+    <id>http://halguo.github.com/blog/2009/01/05/filesystem-based-wiki</id>
+    <content type="html"><![CDATA[<h2>What</h2>
+
+<p>The idea of building a filesystem-based wiki was inspired by <a href="http://c2.com/cgi/wiki/?FilesystemBasedWiki">AndyGlew</a></p>
+
+<h3>The main feature about filesystem-based wiki:</h3>
+
+<ul>
+<li>No Web server</li>
+<li>No Database</li>
+<li>Cross-platform</li>
+<li>Portable</li>
+<li>Raw pages stored as individual text files</li>
+<li>Simple wiki markup</li>
+</ul>
+
+
+<!-- end_preview -->
+
+
+<h2>Why</h2>
+
+<h3>Lightweight</h3>
+
+<ul>
+<li>For personal use, database+webserver solution is too heavy.</li>
+<li>It&#8217;s portable,cross-platform , it can live in a USB flash drive.</li>
+</ul>
+
+
+<h3>Extensibility</h3>
+
+<h4>Third-party tools that work for text file will work for filesystem-based wiki too,such as:</h4>
+
+<ul>
+<li>Version Control tools like svn,cvs,git, way for collaboration.</li>
+<li>Converter Tools/Scripts,raw pages will be able to publish as html pages.</li>
+<li>Imaginative play, extensibility will be infinite</li>
+</ul>
+
+]]></content>
+  </entry>
+  
+</feed>
