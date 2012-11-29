@@ -4,7 +4,7 @@
   <title><![CDATA[HalGuo]]></title>
   <link href="http://haochong.github.com/atom.xml" rel="self"/>
   <link href="http://haochong.github.com/"/>
-  <updated>2012-11-29T15:17:37+08:00</updated>
+  <updated>2012-11-29T15:20:17+08:00</updated>
   <id>http://haochong.github.com/</id>
   <author>
     <name><![CDATA[Haochong.Guo]]></name>
@@ -12,6 +12,24 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[Keep Lean Barber Shop Team]]></title>
+    <link href="http://haochong.github.com/blog/2012/04/14/keep-lean-barber-shop-team/"/>
+    <updated>2012-04-14T00:00:00+08:00</updated>
+    <id>http://haochong.github.com/blog/2012/04/14/keep-lean-barber-shop-team</id>
+    <content type="html"><![CDATA[<ul>
+<li><p>一共4人, 3个理发师, 1个助理.</p></li>
+<li><p>因为理发师少, 要提前预约.</p></li>
+<li><p>之前leader国外学习去了, 只剩俩人, 过剩的预约队列无法消化, 却坚持不招人.</p></li>
+<li><p>难道他们都读过 <strong>Getting Real</strong> 吗?</p></li>
+<li><p>懂得<strong>拒绝资本的诱惑, 拒绝team的自我膨胀, 迷失, 与毁灭~</strong></p></li>
+</ul>
+
+
+<p><img src="http://ww2.sinaimg.cn/bmiddle/6f8fcf15tw1drzcqavo0mj.jpgg" alt="Mou icon" /></p>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[chunks performance]]></title>
