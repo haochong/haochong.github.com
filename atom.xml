@@ -4,7 +4,7 @@
   <title><![CDATA[HalGuo]]></title>
   <link href="http://haochong.github.com/atom.xml" rel="self"/>
   <link href="http://haochong.github.com/"/>
-  <updated>2012-11-29T15:22:50+08:00</updated>
+  <updated>2012-11-29T22:03:25+08:00</updated>
   <id>http://haochong.github.com/</id>
   <author>
     <name><![CDATA[Haochong.Guo]]></name>
@@ -28,16 +28,6 @@
 
 
 <p><img src="http://ww2.sinaimg.cn/bmiddle/6f8fcf15tw1drzcqavo0mj.jpgg" alt="Keep Lean" /></p>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[chunks performance]]></title>
-    <link href="http://haochong.github.com/blog/2011/10/10/chunks-performance/"/>
-    <updated>2011-10-10T00:00:00+08:00</updated>
-    <id>http://haochong.github.com/blog/2011/10/10/chunks-performance</id>
-    <content type="html"><![CDATA[<iframe style="width: 100%; height: 300px" src="http://jsfiddle.net/Sv4nt/embedded/js,resources,html,css,result/light/"></iframe>
-
 ]]></content>
   </entry>
   
