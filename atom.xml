@@ -2,10 +2,10 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
 
   <title><![CDATA[HalGuo]]></title>
-  <link href="http://halguo.github.com/atom.xml" rel="self"/>
-  <link href="http://halguo.github.com/"/>
-  <updated>2012-05-08T11:09:30+08:00</updated>
-  <id>http://halguo.github.com/</id>
+  <link href="http://haochong.github.com/atom.xml" rel="self"/>
+  <link href="http://haochong.github.com/"/>
+  <updated>2012-11-29T15:17:37+08:00</updated>
+  <id>http://haochong.github.com/</id>
   <author>
     <name><![CDATA[Haochong.Guo]]></name>
     
@@ -15,9 +15,9 @@
   
   <entry>
     <title type="html"><![CDATA[chunks performance]]></title>
-    <link href="http://halguo.github.com/blog/2011/10/10/chunks-performance/"/>
+    <link href="http://haochong.github.com/blog/2011/10/10/chunks-performance/"/>
     <updated>2011-10-10T00:00:00+08:00</updated>
-    <id>http://halguo.github.com/blog/2011/10/10/chunks-performance</id>
+    <id>http://haochong.github.com/blog/2011/10/10/chunks-performance</id>
     <content type="html"><![CDATA[<iframe style="width: 100%; height: 300px" src="http://jsfiddle.net/Sv4nt/embedded/js,resources,html,css,result/light/"></iframe>
 
 ]]></content>
@@ -25,10 +25,10 @@
   
   <entry>
     <title type="html"><![CDATA[Getting Real - 始于简单]]></title>
-    <link href="http://halguo.github.com/blog/2011/01/13/getting-real-build-less/"/>
+    <link href="http://haochong.github.com/blog/2011/01/13/getting-real-build-less/"/>
     <updated>2011-01-13T00:00:00+08:00</updated>
-    <id>http://halguo.github.com/blog/2011/01/13/getting-real-build-less</id>
-    <content type="html"><![CDATA[<p><img src="http://halguo.github.com/images/getting_real_build_less.jpg" title="始于简单" alt="始于简单" /></p>
+    <id>http://haochong.github.com/blog/2011/01/13/getting-real-build-less</id>
+    <content type="html"><![CDATA[<p><img src="http://haochong.github.com/images/getting_real_build_less.jpg" title="始于简单" alt="始于简单" /></p>
 
 <ul>
 <li>Less features</li>
@@ -48,9 +48,9 @@
   
   <entry>
     <title type="html"><![CDATA[Rumpetroll – 小蝌蚪快点游]]></title>
-    <link href="http://halguo.github.com/blog/2010/10/05/introduce-rumpetroll/"/>
+    <link href="http://haochong.github.com/blog/2010/10/05/introduce-rumpetroll/"/>
     <updated>2010-10-05T00:00:00+08:00</updated>
-    <id>http://halguo.github.com/blog/2010/10/05/introduce-rumpetroll</id>
+    <id>http://haochong.github.com/blog/2010/10/05/introduce-rumpetroll</id>
     <content type="html"><![CDATA[<p>这是一个名叫 Rumpetroll 的聊天室。在挪威语里，意思是“蝌蚪”。。。</p>
 
 <p>用鼠标控制四处游动，用键盘输入聊天，输入“name:你的名字” 可以给自己的小蝌蚪起名字。</p>
@@ -66,9 +66,9 @@
   
   <entry>
     <title type="html"><![CDATA[ipad mobile? 是手机? 不...]]></title>
-    <link href="http://halguo.github.com/blog/2010/04/08/is-ipad-mobile/"/>
+    <link href="http://haochong.github.com/blog/2010/04/08/is-ipad-mobile/"/>
     <updated>2010-04-08T00:00:00+08:00</updated>
-    <id>http://halguo.github.com/blog/2010/04/08/is-ipad-mobile</id>
+    <id>http://haochong.github.com/blog/2010/04/08/is-ipad-mobile</id>
     <content type="html"><![CDATA[<p>使用UA string 判断 浏览器 是jquery的御用方法</p>
 
 <!-- end_preview -->
@@ -138,9 +138,9 @@ Mozilla/5.0 (iPad; U; CPU OS 3_2 like Mac OS X; en-us) AppleWebKit/531.21.10 (KH
   
   <entry>
     <title type="html"><![CDATA[Modern Chinese Girl]]></title>
-    <link href="http://halguo.github.com/blog/2009/05/12/modern-chinese-girl/"/>
+    <link href="http://haochong.github.com/blog/2009/05/12/modern-chinese-girl/"/>
     <updated>2009-05-12T00:00:00+08:00</updated>
-    <id>http://halguo.github.com/blog/2009/05/12/modern-chinese-girl</id>
+    <id>http://haochong.github.com/blog/2009/05/12/modern-chinese-girl</id>
     <content type="html"><![CDATA[<p>In Chinese traditional culture, girls should be shy and passive.</p>
 
 <p>But my experience has told me, it&#8217;s not true.</p>
@@ -166,9 +166,9 @@ Mozilla/5.0 (iPad; U; CPU OS 3_2 like Mac OS X; en-us) AppleWebKit/531.21.10 (KH
   
   <entry>
     <title type="html"><![CDATA[Building a filesystem based wiki]]></title>
-    <link href="http://halguo.github.com/blog/2009/01/05/filesystem-based-wiki/"/>
+    <link href="http://haochong.github.com/blog/2009/01/05/filesystem-based-wiki/"/>
     <updated>2009-01-05T00:00:00+08:00</updated>
-    <id>http://halguo.github.com/blog/2009/01/05/filesystem-based-wiki</id>
+    <id>http://haochong.github.com/blog/2009/01/05/filesystem-based-wiki</id>
     <content type="html"><![CDATA[<h2>What</h2>
 
 <p>The idea of building a filesystem-based wiki was inspired by <a href="http://c2.com/cgi/wiki/?FilesystemBasedWiki">AndyGlew</a></p>
