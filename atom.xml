@@ -4,7 +4,7 @@
   <title><![CDATA[HalGuo]]></title>
   <link href="http://haochong.github.com/atom.xml" rel="self"/>
   <link href="http://haochong.github.com/"/>
-  <updated>2012-11-29T22:06:56+08:00</updated>
+  <updated>2012-11-29T22:15:20+08:00</updated>
   <id>http://haochong.github.com/</id>
   <author>
     <name><![CDATA[Haochong.Guo]]></name>
@@ -18,7 +18,15 @@
     <link href="http://haochong.github.com/blog/2012/04/14/keep-lean-barber-shop-team/"/>
     <updated>2012-04-14T00:00:00+08:00</updated>
     <id>http://haochong.github.com/blog/2012/04/14/keep-lean-barber-shop-team</id>
-    <content type="html"><![CDATA[<ul>
+    <content type="html"><![CDATA[<hr />
+
+<p>layout: post
+title:  Keep Lean - 某理发店的团队配置
+tags:
+ - think
+ - team</p>
+
+<ul>
 <li><p>一共4人, 3个理发师, 1个助理.</p></li>
 <li><p>因为理发师少, 要提前预约.</p></li>
 <li><p>之前leader国外学习去了, 只剩俩人, 过剩的预约队列无法消化, 却坚持不招人.</p></li>
