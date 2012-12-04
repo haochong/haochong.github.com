@@ -4,7 +4,7 @@
   <title><![CDATA[HalGuo]]></title>
   <link href="http://haochong.github.com/atom.xml" rel="self"/>
   <link href="http://haochong.github.com/"/>
-  <updated>2012-12-04T10:52:12+08:00</updated>
+  <updated>2012-12-04T11:01:44+08:00</updated>
   <id>http://haochong.github.com/</id>
   <author>
     <name><![CDATA[Haochong.Guo]]></name>
@@ -21,6 +21,13 @@
     <content type="html"><![CDATA[<ul>
 <li><p>一共4人, 3个理发师, 1个助理.</p></li>
 <li><p>因为理发师少, 要提前预约.</p></li>
+</ul>
+
+
+<!--more-->
+
+
+<ul>
 <li><p>之前leader国外学习去了, 只剩俩人, 过剩的预约队列无法消化, 却坚持不招人.</p></li>
 <li><p>难道他们都读过 <strong>Getting Real</strong> 吗?</p></li>
 <li><p>懂得<strong>拒绝资本的诱惑, 拒绝team的自我膨胀, 迷失, 与毁灭~</strong></p></li>
@@ -47,7 +54,7 @@
 </ul>
 
 
-<!-- end_preview -->
+<!--more-->
 
 
 <p><em>less</em>的概念贯穿了全书，只有当你<em>less</em>的时候，你才知道什么是<em>essential</em>;只有当你一无所有的时候，你才意识到最重要的东西（阳光，空气，水），不是么？</p>
@@ -63,7 +70,7 @@
 
 <p>用鼠标控制四处游动，用键盘输入聊天，输入“name:你的名字” 可以给自己的小蝌蚪起名字。</p>
 
-<!-- end_preview -->
+<!--more-->
 
 
 <p>因为使用了WebSockets 技术， 所以你懂的。一个结合了Canvas的不错的尝试，让人看到了Web开发的未来，小蝌蚪，快点游！</p>
@@ -79,7 +86,7 @@
     <id>http://haochong.github.com/blog/2010/04/08/is-ipad-mobile</id>
     <content type="html"><![CDATA[<p>使用UA string 判断 浏览器 是jquery的御用方法</p>
 
-<!-- end_preview -->
+<!--more-->
 
 
 
@@ -157,7 +164,7 @@ Mozilla/5.0 (iPad; U; CPU OS 3_2 like Mac OS X; en-us) AppleWebKit/531.21.10 (KH
 
 <p>I guess there&#8217;s lot of Zhuo Wen Jun &#8216;s descendants in China nowadays.</p>
 
-<!-- end_preview -->
+<!--more-->
 
 
 <p>Facts have proven that I am right because there&#8217;s a girl that asked me out a few days ago.</p>
@@ -193,7 +200,7 @@ Mozilla/5.0 (iPad; U; CPU OS 3_2 like Mac OS X; en-us) AppleWebKit/531.21.10 (KH
 </ul>
 
 
-<!-- end_preview -->
+<!--more-->
 
 
 <h2>Why</h2>

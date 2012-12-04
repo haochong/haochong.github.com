@@ -8,10 +8,9 @@
 
     
     <meta name="description" content="Keep Lean - 某理发店的团队配置 一共4人, 3个理发师, 1个助理.
-因为理发师少, 要提前预约.
-之前leader国外学习去了, 只剩俩人, 过剩的预约队列无法消化, 却坚持不招人.
-难道他们都读过 Getting Real 吗?
-懂得拒绝资本的诱惑, 拒绝team的自我膨胀, &hellip;">
+因为理发师少, 要提前预约. 继续阅读 &rarr; Apr 14th, 2012 Getting Real - 始于简单 Less features
+Less options/preferences
+Less &hellip;">
     
     <meta name="viewport" content="width=device-width; initial-scale=1; maximum-scale=1">
 
@@ -73,16 +72,12 @@
         <ul>
 <li><p>一共4人, 3个理发师, 1个助理.</p></li>
 <li><p>因为理发师少, 要提前预约.</p></li>
-<li><p>之前leader国外学习去了, 只剩俩人, 过剩的预约队列无法消化, 却坚持不招人.</p></li>
-<li><p>难道他们都读过 <strong>Getting Real</strong> 吗?</p></li>
-<li><p>懂得<strong>拒绝资本的诱惑, 拒绝team的自我膨胀, 迷失, 与毁灭~</strong></p></li>
 </ul>
 
 
-<p><img src="http://ww2.sinaimg.cn/bmiddle/6f8fcf15tw1drzcqavo0mj.jpgg" alt="Keep Lean" /></p>
 
         
-        
+        <a href="/blog/2012/04/14/keep-lean-barber-shop-team/" class="more-link">继续阅读 &rarr;</a>
     </div>
     <div class="meta">
         <div class="date">
@@ -121,13 +116,9 @@
 </ul>
 
 
-<!-- end_preview -->
-
-
-<p><em>less</em>的概念贯穿了全书，只有当你<em>less</em>的时候，你才知道什么是<em>essential</em>;只有当你一无所有的时候，你才意识到最重要的东西（阳光，空气，水），不是么？</p>
 
         
-        
+        <a href="/blog/2011/01/13/getting-real-build-less/" class="more-link">继续阅读 &rarr;</a>
     </div>
     <div class="meta">
         <div class="date">
@@ -159,15 +150,9 @@
 
 <p>用鼠标控制四处游动，用键盘输入聊天，输入“name:你的名字” 可以给自己的小蝌蚪起名字。</p>
 
-<!-- end_preview -->
-
-
-<p>因为使用了WebSockets 技术， 所以你懂的。一个结合了Canvas的不错的尝试，让人看到了Web开发的未来，小蝌蚪，快点游！</p>
-
-<p><img src="http://static.paulboxley.com/rumpetroll.png" alt="Rumpetroll" /></p>
 
         
-        
+        <a href="/blog/2010/10/05/introduce-rumpetroll/" class="more-link">继续阅读 &rarr;</a>
     </div>
     <div class="meta">
         <div class="date">
@@ -197,71 +182,9 @@
     <div class="entry">
         <p>使用UA string 判断 浏览器 是jquery的御用方法</p>
 
-<!-- end_preview -->
-
-
-
-
-<div>
-  <pre>
-    <code class='javascript'>uaMatch: function( ua ) {
-  var ret = { browser: &quot;&quot; };
-
-  ua = ua.toLowerCase();
-
-  if ( /webkit/.test( ua ) ) {
-    ret = { browser: &quot;webkit&quot;, version: /webkit[\/ ]([\w.]+)/ };
-
-  } else if ( /opera/.test( ua ) ) {
-    ret = { browser: &quot;opera&quot;, version:  /version/.test( ua ) ? /version[\/ ]([\w.]+)/ : /opera[\/ ]([\w.]+)/ };
-
-  } else if ( /msie/.test( ua ) ) {
-    ret = { browser: &quot;msie&quot;, version: /msie ([\w.]+)/ };
-
-  } else if ( /mozilla/.test( ua ) &amp;amp;&amp;amp; !/compatible/.test( ua ) ) {
-    ret = { browser: &quot;mozilla&quot;, version: /rv:([\w.]+)/ };
-  }
-
-  ret.version = (ret.version &amp;amp;&amp;amp; ret.version.exec( ua ) || [0, &quot;0&quot;])[1];
-
-  return ret;
-}</code>
-  </pre>
-</div>
-
-
-<p>这方法很方便，也很脆弱，不信的话，可以看看我们亲爱的ipad&#8230;</p>
-
-<p>随着ipad的出现，浏览网页的方式似乎出现了新的路，介于手机与电脑之间的，给人一种“特仑苏”的感觉，尤其是当你看到了ipad的UA string 时</p>
-
-<p><code>
-Mozilla/5.0 (iPad; U; CPU OS 3_2 like Mac OS X; en-us) AppleWebKit/531.21.10 (KHTML, like Gecko) Version/4.0.4 Mobile/7B334b Safari/531.21.10
-</code></p>
-
-<p>请注意后面的Mobile字样！！！</p>
-
-<blockquote>是手机吗？不&#8230;
-是ipad，不是所有移动设备都叫ipad</blockquote>
-
-
-<p>诚然，一句</p>
-
-<div>
-  <pre>
-    <code class='javascript'>navigator.userAgent.match(/iPad/i) != null;</code>
-  </pre>
-</div>
-
-
-<p>可以解决问题</p>
-
-<p>但是，那些判断UA string 为mobile的网站呢？
-不妨想象一下，那些使用着“大屏幕”的ipad用户访问 www.某网站.com ，却被直接转到针对手机设计的 m.某网站.com 时的心情&#8230;</p>
-
-<p>没有标准的useragent ， 在如今的web海域中，还要漂泊多久？</p>
 
         
-        
+        <a href="/blog/2010/04/08/is-ipad-mobile/" class="more-link">继续阅读 &rarr;</a>
     </div>
     <div class="meta">
         <div class="date">
@@ -297,21 +220,9 @@ Mozilla/5.0 (iPad; U; CPU OS 3_2 like Mac OS X; en-us) AppleWebKit/531.21.10 (KH
 
 <p>I guess there&#8217;s lot of Zhuo Wen Jun &#8216;s descendants in China nowadays.</p>
 
-<!-- end_preview -->
-
-
-<p>Facts have proven that I am right because there&#8217;s a girl that asked me out a few days ago.</p>
-
-<p>I didn&#8217;t feel any chemistry with her. Well, this is not the point -_-</p>
-
-<p>The point is she is a real warrior!</p>
-
-<p>The modern Chinese girl is not only gentle, but also brave and strong.</p>
-
-<p>If I fall in love with someone someday, maybe she is Zhuo Wen Jun &#8216;s descendant too :)</p>
 
         
-        
+        <a href="/blog/2009/05/12/modern-chinese-girl/" class="more-link">继续阅读 &rarr;</a>
     </div>
     <div class="meta">
         <div class="date">
@@ -355,32 +266,9 @@ Mozilla/5.0 (iPad; U; CPU OS 3_2 like Mac OS X; en-us) AppleWebKit/531.21.10 (KH
 </ul>
 
 
-<!-- end_preview -->
-
-
-<h2>Why</h2>
-
-<h3>Lightweight</h3>
-
-<ul>
-<li>For personal use, database+webserver solution is too heavy.</li>
-<li>It&#8217;s portable,cross-platform , it can live in a USB flash drive.</li>
-</ul>
-
-
-<h3>Extensibility</h3>
-
-<h4>Third-party tools that work for text file will work for filesystem-based wiki too,such as:</h4>
-
-<ul>
-<li>Version Control tools like svn,cvs,git, way for collaboration.</li>
-<li>Converter Tools/Scripts,raw pages will be able to publish as html pages.</li>
-<li>Imaginative play, extensibility will be infinite</li>
-</ul>
-
 
         
-        
+        <a href="/blog/2009/01/05/filesystem-based-wiki/" class="more-link">继续阅读 &rarr;</a>
     </div>
     <div class="meta">
         <div class="date">
