@@ -4,7 +4,7 @@
   <title><![CDATA[HalGuo]]></title>
   <link href="http://haochong.github.com/atom.xml" rel="self"/>
   <link href="http://haochong.github.com/"/>
-  <updated>2012-12-04T11:01:44+08:00</updated>
+  <updated>2012-12-04T11:03:19+08:00</updated>
   <id>http://haochong.github.com/</id>
   <author>
     <name><![CDATA[Haochong.Guo]]></name>
@@ -18,7 +18,9 @@
     <link href="http://haochong.github.com/blog/2012/04/14/keep-lean-barber-shop-team/"/>
     <updated>2012-04-14T00:00:00+08:00</updated>
     <id>http://haochong.github.com/blog/2012/04/14/keep-lean-barber-shop-team</id>
-    <content type="html"><![CDATA[<ul>
+    <content type="html"><![CDATA[<p><img src="http://ww2.sinaimg.cn/bmiddle/6f8fcf15tw1drzcqavo0mj.jpgg" alt="Keep Lean" /></p>
+
+<ul>
 <li><p>一共4人, 3个理发师, 1个助理.</p></li>
 <li><p>因为理发师少, 要提前预约.</p></li>
 </ul>
@@ -33,8 +35,6 @@
 <li><p>懂得<strong>拒绝资本的诱惑, 拒绝team的自我膨胀, 迷失, 与毁灭~</strong></p></li>
 </ul>
 
-
-<p><img src="http://ww2.sinaimg.cn/bmiddle/6f8fcf15tw1drzcqavo0mj.jpgg" alt="Keep Lean" /></p>
 ]]></content>
   </entry>
   
