@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+  <title><![CDATA[Category: wiki | HalGuo]]></title>
+  <link href="http://haochong.github.com/blog/categories/wiki/atom.xml" rel="self"/>
+  <link href="http://haochong.github.com/"/>
+  <updated>2012-12-05T14:20:29+08:00</updated>
+  <id>http://haochong.github.com/</id>
+  <author>
+    <name><![CDATA[Haochong.Guo]]></name>
+    
+  </author>
+  <generator uri="http://octopress.org/">Octopress</generator>
+
+  
+  <entry>
+    <title type="html"><![CDATA[Building a filesystem based wiki]]></title>
+    <link href="http://haochong.github.com/blog/2009/01/05/filesystem-based-wiki/"/>
+    <updated>2009-01-05T00:00:00+08:00</updated>
+    <id>http://haochong.github.com/blog/2009/01/05/filesystem-based-wiki</id>
+    <content type="html"><![CDATA[<h2>What</h2>
+
+<p>The idea of building a filesystem-based wiki was inspired by <a href="http://c2.com/cgi/wiki/?FilesystemBasedWiki">AndyGlew</a></p>
+
+<h3>The main feature about filesystem-based wiki:</h3>
+
+<ul>
+<li>No Web server</li>
+<li>No Database</li>
+<li>Cross-platform</li>
+<li>Portable</li>
+<li>Raw pages stored as individual text files</li>
+<li>Simple wiki markup</li>
+</ul>
+
+
+<!--more-->
+
+
+<h2>Why</h2>
+
+<h3>Lightweight</h3>
+
+<ul>
+<li>For personal use, database+webserver solution is too heavy.</li>
+<li>It's portable,cross-platform , it can live in a USB flash drive.</li>
+</ul>
+
+
+<h3>Extensibility</h3>
+
+<h4>Third-party tools that work for text file will work for filesystem-based wiki too,such as:</h4>
+
+<ul>
+<li>Version Control tools like svn,cvs,git, way for collaboration.</li>
+<li>Converter Tools/Scripts,raw pages will be able to publish as html pages.</li>
+<li>Imaginative play, extensibility will be infinite</li>
+</ul>
+
+]]></content>
+  </entry>
+  
+</feed>

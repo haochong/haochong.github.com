@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+  <title><![CDATA[Category: websocket | HalGuo]]></title>
+  <link href="http://haochong.github.com/blog/categories/websocket/atom.xml" rel="self"/>
+  <link href="http://haochong.github.com/"/>
+  <updated>2012-12-05T14:20:29+08:00</updated>
+  <id>http://haochong.github.com/</id>
+  <author>
+    <name><![CDATA[Haochong.Guo]]></name>
+    
+  </author>
+  <generator uri="http://octopress.org/">Octopress</generator>
+
+  
+  <entry>
+    <title type="html"><![CDATA[Rumpetroll – 小蝌蚪快点游]]></title>
+    <link href="http://haochong.github.com/blog/2010/10/05/introduce-rumpetroll/"/>
+    <updated>2010-10-05T00:00:00+08:00</updated>
+    <id>http://haochong.github.com/blog/2010/10/05/introduce-rumpetroll</id>
+    <content type="html"><![CDATA[<p>这是一个名叫 Rumpetroll 的聊天室。在挪威语里，意思是“蝌蚪”。。。</p>
+
+<p>用鼠标控制四处游动，用键盘输入聊天，输入“name:你的名字” 可以给自己的小蝌蚪起名字。</p>
+
+<!--more-->
+
+
+<p>因为使用了WebSockets 技术， 所以你懂的。一个结合了Canvas的不错的尝试，让人看到了Web开发的未来，小蝌蚪，快点游！</p>
+
+<p><img src="http://static.paulboxley.com/rumpetroll.png" alt="Rumpetroll" /></p>
+]]></content>
+  </entry>
+  
+</feed>

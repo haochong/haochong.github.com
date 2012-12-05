@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+  <title><![CDATA[Category: less | HalGuo]]></title>
+  <link href="http://haochong.github.com/blog/categories/less/atom.xml" rel="self"/>
+  <link href="http://haochong.github.com/"/>
+  <updated>2012-12-05T14:20:29+08:00</updated>
+  <id>http://haochong.github.com/</id>
+  <author>
+    <name><![CDATA[Haochong.Guo]]></name>
+    
+  </author>
+  <generator uri="http://octopress.org/">Octopress</generator>
+
+  
+  <entry>
+    <title type="html"><![CDATA[Getting Real - 始于简单]]></title>
+    <link href="http://haochong.github.com/blog/2011/01/13/getting-real-build-less/"/>
+    <updated>2011-01-13T00:00:00+08:00</updated>
+    <id>http://haochong.github.com/blog/2011/01/13/getting-real-build-less</id>
+    <content type="html"><![CDATA[<p><img src="/images/getting_real_build_less.jpg" title="始于简单" alt="始于简单" /></p>
+
+<ul>
+<li>Less features</li>
+<li>Less options/preferences</li>
+<li>Less people and corporate structure</li>
+<li>Less meetings and abstractions</li>
+<li>Less promises</li>
+</ul>
+
+
+<!--more-->
+
+
+<p><em>less</em>的概念贯穿了全书，只有当你<em>less</em>的时候，你才知道什么是<em>essential</em>;只有当你一无所有的时候，你才意识到最重要的东西（阳光，空气，水），不是么？</p>
+]]></content>
+  </entry>
+  
+</feed>

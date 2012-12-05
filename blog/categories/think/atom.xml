@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+  <title><![CDATA[Category: think | HalGuo]]></title>
+  <link href="http://haochong.github.com/blog/categories/think/atom.xml" rel="self"/>
+  <link href="http://haochong.github.com/"/>
+  <updated>2012-12-05T14:20:29+08:00</updated>
+  <id>http://haochong.github.com/</id>
+  <author>
+    <name><![CDATA[Haochong.Guo]]></name>
+    
+  </author>
+  <generator uri="http://octopress.org/">Octopress</generator>
+
+  
+  <entry>
+    <title type="html"><![CDATA[Keep Lean - 某理发店的团队配置]]></title>
+    <link href="http://haochong.github.com/blog/2012/04/14/keep-lean-barber-shop-team/"/>
+    <updated>2012-04-14T00:00:00+08:00</updated>
+    <id>http://haochong.github.com/blog/2012/04/14/keep-lean-barber-shop-team</id>
+    <content type="html"><![CDATA[<ul>
+<li><p>一共4人, 3个理发师, 1个助理.</p></li>
+<li><p>因为理发师少, 要提前预约.</p></li>
+</ul>
+
+
+<!--more-->
+
+
+<ul>
+<li><p>之前leader国外学习去了, 只剩俩人, 过剩的预约队列无法消化, 却坚持不招人.</p></li>
+<li><p>难道他们都读过 <strong>Getting Real</strong> 吗?</p></li>
+<li><p>懂得<strong>拒绝资本的诱惑, 拒绝team的自我膨胀, 迷失, 与毁灭~</strong></p></li>
+</ul>
+
+
+<p><img src="http://ww2.sinaimg.cn/bmiddle/6f8fcf15tw1drzcqavo0mj.jpgg" alt="Keep Lean" /></p>
+]]></content>
+  </entry>
+  
+</feed>
