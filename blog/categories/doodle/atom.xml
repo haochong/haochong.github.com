@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+  <title><![CDATA[Category: doodle | Haochong]]></title>
+  <link href="http://haochong.github.com/blog/categories/doodle/atom.xml" rel="self"/>
+  <link href="http://haochong.github.com/"/>
+  <updated>2013-01-06T16:25:23+08:00</updated>
+  <id>http://haochong.github.com/</id>
+  <author>
+    <name><![CDATA[Haochong.Guo]]></name>
+    
+  </author>
+  <generator uri="http://octopress.org/">Octopress</generator>
+
+  
+  <entry>
+    <title type="html"><![CDATA[owl]]></title>
+    <link href="http://haochong.github.com/blog/2013/01/06/owl/"/>
+    <updated>2013-01-06T16:12:00+08:00</updated>
+    <id>http://haochong.github.com/blog/2013/01/06/owl</id>
+    <content type="html"><![CDATA[<p><img src="http://25.media.tumblr.com/02b212e7ccc2df7ac50ff15a82d727df/tumblr_merq2vvkho1rmi15vo1_500.jpg" alt="Owl" /></p>
+]]></content>
+  </entry>
+  
+</feed>
