@@ -4,7 +4,7 @@
   <title><![CDATA[Haochong]]></title>
   <link href="http://haochong.github.com/atom.xml" rel="self"/>
   <link href="http://haochong.github.com/"/>
-  <updated>2013-01-06T16:25:23+08:00</updated>
+  <updated>2013-01-06T22:56:20+08:00</updated>
   <id>http://haochong.github.com/</id>
   <author>
     <name><![CDATA[Haochong.Guo]]></name>
@@ -12,15 +12,6 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
-  
-  <entry>
-    <title type="html"><![CDATA[make my day - day 1]]></title>
-    <link href="http://haochong.github.com/blog/2013/01/06/make-my-day-day-1/"/>
-    <updated>2013-01-06T16:25:00+08:00</updated>
-    <id>http://haochong.github.com/blog/2013/01/06/make-my-day-day-1</id>
-    <content type="html"><![CDATA[
-]]></content>
-  </entry>
   
   <entry>
     <title type="html"><![CDATA[为什么要画图？]]></title>
